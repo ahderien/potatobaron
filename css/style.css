@@ -1,0 +1,16 @@
+/* UNIVERSAL ELEMENTS */
+
+body { font-family: arial, sans-serif; sont-size: 1em; color: #101010; overflow-x: hidden;}
+
+header { margin-top: -10px; margin-left: -10px; padding-right: 20px;  width: 100%; height: 100px; background-color: #0F4D21; }
+#logo { width: 100px; height: 100px; text-align: center; line-height: 165px; float: left; }
+#title { font-family: "arial black", arial, sans-serif; font-size: 4em; color: #fff; text-transform: uppercase;}
+
+nav { margin-left: -10px; padding: 5px 20px 5px 5px;  width: 100%; background-color: #0F4D21; border-top: 1px solid #fff; font-size: 1.2em; text-align: center; word-spacing: 5em;}
+nav a { font-family: "arial black", arial, sans-serif; color: #fff; text-decoration: none; text-transform: uppercase;}
+nav a:hover { text-decoration: underline; }
+footer { margin-left: -8px; position: absolute; bottom: 0px; width: 100%; height: 100px; background-color: #0F4D21; font-family: "arial black", arial, sans-serif;}
+
+h1 { font-family: "arial black", arial, sans-serif; font-size: 2em; color: #0F4D21; text-transform: uppercase; margin-top: 0px; margin-bottom: 5px;}
+
+#container { margin: 10px auto; padding: 10px; width: 75%; background-color: #fff7e6;}

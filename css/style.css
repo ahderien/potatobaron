@@ -1,6 +1,6 @@
 /* UNIVERSAL ELEMENTS */
 
-body { font-family: arial, sans-serif; sont-size: 1em; color: #101010; overflow-x: hidden;}
+body { font-family: arial, sans-serif; font-size: 1em; color: #101010; overflow-x: hidden;}
 
 header { margin-top: -10px; margin-left: -10px; padding-right: 20px;  width: 100%; height: 100px; background-color: #0F4D21; }
 #logo { width: 100px; height: 100px; text-align: center; line-height: 165px; float: left; }
@@ -10,7 +10,7 @@ nav { margin-left: -10px; padding: 5px 20px 5px 5px;  width: 100%; background-co
 nav a { font-family: "arial black", arial, sans-serif; color: #fff; text-decoration: none; text-transform: uppercase;}
 nav a:hover { text-decoration: underline; }
 
-footer { margin-left: -8px; padding: 5px; position: absolute; bottom: 0px; width: 100%; height: 65px; background-color: #0F4D21; font-family: "arial black", arial, sans-serif; font-size: 0.8em; color: #fff; text-transform: uppercase; overflow: hidden;}
+footer { margin-left: -8px; position: relative; top: 0px; padding: 5px; width: 102%; height: 65px; background-color: #0F4D21; font-family: "arial black", arial, sans-serif; font-size: 0.8em; color: #fff; text-transform: uppercase; overflow: hidden;}
 footer a { font-family: "arial black", arial, sans-serif; color: #fff; text-transform: uppercase; text-decoration: none;}
 footer a:hover { text-decoration: underline;}
 #foot { margin-right: 30px; padding: 5px; border-left: 1px solid #fff; float: right; }
@@ -19,3 +19,13 @@ footer a:hover { text-decoration: underline;}
 h1 { font-family: "arial black", arial, sans-serif; font-size: 2em; color: #0F4D21; text-transform: uppercase; margin-top: 0px; margin-bottom: 5px;}
 
 #container { margin: 10px auto; padding: 10px; width: 75%; background-color: #fff7e6;}
+
+/* MENU PAGE */
+
+#side { position: fixed; top: 150px; left: 14px; width: 20%; }
+.button { width: 50%; margin-bottom: 5px; background-color: #0f4d21; padding: 10px; font-family: "arial black", arial, sans-serif; font-size: 1em; color: #fff; text-align: center; text-transform: uppercase; }
+
+#menu { position: relative; top: 15px; left: 170px; width: 80%; }
+.header { width: 100%; margin-bottom: 5px; padding: 10px; background-color: #0f4d21; font-family: "arial black", arial, sans-serif; font-size: 1em; color: #fff; text-transform: uppercase; }
+.food { padding: 10px; margin-bottom: 20px; height: 100px;}
+.item { margin-right: 10px; width: calc(25% - 10px); float: left;}

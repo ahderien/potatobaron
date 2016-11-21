@@ -28,4 +28,4 @@ h1 { font-family: "arial black", arial, sans-serif; font-size: 2em; color: #0F4D
 #menu { position: relative; top: 15px; left: 170px; width: 80%; }
 .header { width: 100%; margin-bottom: 5px; padding: 10px; background-color: #0f4d21; font-family: "arial black", arial, sans-serif; font-size: 1em; color: #fff; text-transform: uppercase; }
 .food { padding: 10px; margin-bottom: 20px; height: 100px;}
-.item { margin-right: 10px; width: calc(25% - 10px); float: left;}
+.item { margin-right: 10px; width: 200px; float: left;}

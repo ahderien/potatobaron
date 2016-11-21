@@ -35,3 +35,7 @@ a:hover { text-decoration: underline; }
 .header { width: 100%; margin-bottom: 5px; padding: 10px; background-color: #0f4d21; font-family: "arial black", arial, sans-serif; font-size: 1em; color: #fff; text-transform: uppercase; }
 .food { padding: 10px; margin-bottom: 20px; height: 100px;}
 .item { margin-right: 10px; width: 200px; float: left;}
+
+/* CONTACT PAGE */
+
+#contact { margin: 10px auto; width: 75%; line-height: 1.5em; }

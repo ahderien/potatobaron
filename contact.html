@@ -19,7 +19,7 @@
         <nav><a href="index.html">Home</a> <a href="about.html">About</a> <a href="menu.html">Menu</a> <a href="contact.html">Contact</a></nav>
         
         <div id="contact">
-            <form>
+            <form id="contact">
                 <div style="float: left; margin-right: 10px;">Name:<br>
                 Email:<br>
                 Subject:</div>
@@ -28,7 +28,7 @@
                 <input type="text" name="subject" size="40" required>
                 <p>
                 <label>Message:</label><br>
-                <input type="text" name="subject" size="40" id="message" required>
+                    <textarea name="message" form="contact" required></textarea>
                 
                 <input type="submit" id="submit">
             </form>

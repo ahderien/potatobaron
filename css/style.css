@@ -32,12 +32,16 @@ a:hover { text-decoration: underline; }
 /* MENU PAGE */
 
 #side { position: fixed; top: 150px; left: 14px; width: 20%; }
-.button { width: 50%; margin-bottom: 5px; background-color: #0f4d21; padding: 10px; font-family: "arial black", arial, sans-serif; font-size: 1em; color: #fff; text-align: center; text-transform: uppercase; }
+.button { width: 130px; margin-bottom: 5px; background-color: #0f4d21; padding: 10px; font-family: "arial black", arial, sans-serif; font-size: 1em; color: #fff; text-align: center; text-transform: uppercase; }
 
 #menu { position: relative; top: 15px; left: 170px; width: 80%; }
 .header { width: 100%; margin-bottom: 5px; padding: 10px; background-color: #0f4d21; font-family: "arial black", arial, sans-serif; font-size: 1em; color: #fff; text-transform: uppercase; }
-.food { padding: 10px; margin-bottom: 20px; height: 100px;}
+.food { padding: 10px; margin-bottom: 20px; min-height: 350px;}
 .item { margin-right: 10px; width: 200px; float: left;}
+
+.mdesc { margin: 5px 0px 5px 0px; padding: 5px; min-height: 75px; background-color: #fff7e6; }
+
+.long { width: 180px; }
 
 /* CONTACT PAGE */
 

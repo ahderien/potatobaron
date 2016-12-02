@@ -25,38 +25,34 @@
         
         
             <form id="checkout">
-                <div style="float: left; margin-right: 10px;">Name:<br>
-                Email:<br>
-                Phone Number:
-                <p>
-                Address:<br>
-                City:<br>
-                Postal Code:
+                    <div class="name">
+                        Name: <input type="text" id="name" required autofocus>
+                    </div>
+                
+                    
+                        Email: <input type="email" id="email" required><br>
+                    
+                
+                    Address: <input type="text" required> Suite: <input type="text" required><br>
+                    City: <input type="text" required> Postal Code: <input type="text" required>
                 <p></p>
-                Comments:</div>
-                <input type="text" name="name" size="40" required autofocus><br>
-                <input type="email" name="email" size="40" required><br>
-                <input type="text" name="phone" size="40" required>
-                <p>
-                <input type="text" name="address" size="40" required><br>
-                    <input type="text" name="city" size="40" required><br>
-                    <input type="text" name="postal" size="40" required>
-                    <p></p>
-                <textarea name="comments" form="checkout" id="comments"></textarea>
-            
-            <div class="header" style="margin-bottom: 10px;">Order Summary</div>
+                Comments:<br>
+                <textarea></textarea>
+                
+                <div class="header" style="margin-bottom: 10px;">Order Summary</div>
                 Mashed Potatoes x 1<br>
                 Kid's Perogies x1
                 
                 <div class="button long"><a href="menu.html">Add to order</a></div>
                 
             
-                <div style="float: right;">
+                <div class="buttons">
                     <div class="button" style="float:right; margin-left: 10px;"><a href="index.html">Cancel</a></div><input type="submit" id="submit" value="Checkout" style="height: 44px; position: relative; top: -10px;">
                     </div>
+                </div>
             </form>
-        </div>
         
+            </div>
         
         <footer style="position: relative; top: 10px;">
             <div id="foot">Tel: 604-768-2862<br>Email: contact@pbaron.com<br>Twitter: <a href="https://twitter.com/pbaron_official">pbaron_official</a></div>

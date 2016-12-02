@@ -56,16 +56,26 @@ textarea { width: 100%; height: 400px; background-color: #fff7e6; font-family: a
 
 .why {width: 100%;}
 
-#check {margin: 10px auto; width: 70%; line-height: 1.5em; height: 600px;   }
+#check {margin: 10px auto; width: 70%; line-height: 1.5em;}
 #comments { width: 310px; height: 150px;}
 input:hover {text-decoration: underline;}
+.line { display: inline-block; width: 70px;}
 
-.name {display: inline-block; width: 50%;}
-#name {width: calc(100% - 57px);}
+.name {display: inline-block; width: 50%; margin-bottom: 5px; }
+#name {width: calc(100% - 100px); margin-right: 10px;}
 
 #email {width: calc(50% - 58px);}
 
-.address {display: inline-block; width: calc(75% - 35px);}
+.address {display: inline-block; width: calc(65% - 45px); margin-bottom: 5px; margin-right: 10px;}
 #address {width: calc(100% - 75px);}
 
-#suite { width: calc(25% - 20px);}
+#suite { width: calc(35% - 20px);}
+
+.city {display: inline-block; width: calc(65% - 45px); margin-bottom: 5px; margin-right: 10px;}
+#city {width: calc(100% - 75px);}
+
+#postal {width: calc(35% - 70px);}
+
+#requests { display: block; width: 65%; height: 200px; margin: 0px auto 10px auto;}
+
+.summaryt { width: calc(100% - 210px); line-height: 200px; margin-left: 10px; text-transform: uppercase; color: #0F4D21; font-family: "arial black", arial, sans-serif; }

@@ -24,7 +24,7 @@
             <div class="header" style="margin-bottom: 10px;">Your Information</div>
         
         
-            <form id="checkout">
+            <form id="checkout"><div class="why">
                     <div class="name">
                         Name: <input type="text" id="name" required autofocus>
                     </div>
@@ -33,8 +33,18 @@
                         Email: <input type="email" id="email" required><br>
                     
                 
-                    Address: <input type="text" required> Suite: <input type="text" required><br>
-                    City: <input type="text" required> Postal Code: <input type="text" required>
+                    <div class="address">
+                        Address: <input type="text" id ="address" required>
+                    </div>
+                        
+                        Suite: <input type="text" id="suite" required><br>
+                
+                    <div class="city">
+                        City: <input type="text" id="city" required>
+                    </div>
+                
+                    Postal Code: <input type="text" required>
+                
                 <p></p>
                 Comments:<br>
                 <textarea></textarea>
@@ -50,7 +60,7 @@
                     <div class="button" style="float:right; margin-left: 10px;"><a href="index.html">Cancel</a></div><input type="submit" id="submit" value="Checkout" style="height: 44px; position: relative; top: -10px;">
                     </div>
                 </div>
-            </form>
+                </div></form>
         
             </div>
         

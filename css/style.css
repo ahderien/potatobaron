@@ -54,11 +54,18 @@ textarea { width: 100%; height: 400px; background-color: #fff7e6; font-family: a
 
 /* CHECKOUT PAGE */
 
+.why {width: 100%;}
+
 #check {margin: 10px auto; width: 70%; line-height: 1.5em; height: 600px;   }
 #comments { width: 310px; height: 150px;}
 input:hover {text-decoration: underline;}
 
 .name {display: inline-block; width: 50%;}
-#name {width: calc(100% - 100px);}
+#name {width: calc(100% - 57px);}
 
-#email {width: calc(50% - 100px);}
+#email {width: calc(50% - 58px);}
+
+.address {display: inline-block; width: calc(75% - 35px);}
+#address {width: calc(100% - 75px);}
+
+#suite { width: calc(25% - 20px);}

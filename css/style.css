@@ -28,7 +28,11 @@ a:hover { text-decoration: underline; }
 #adprompt a { font-family: "arial black", arial, sans-serif; color: #FFF; text-decoration: none; cursor: pointer;}
 #adprompt a:hover { color: #0F4D21; }
 .adcontainer { margin: 10px auto; width: 75%; max-width: 950px; }
-.mainad { width: 33%; max-width: 300px; height: 300px; display: inline-block; margin-bottom: 10px; color: #fff; }
+.mainad { width: 33%; max-width: 300px; height: 300px; float: left; margin-bottom: 10px; color: #fff; text-align: center; text-transform: uppercase;}
+h2 {font-size: 2em; line-height: 0px;}
+.plain { color: #000; text-transform: none;}
+.plain h2 {color: #0F4D21; line-height: 0.8em;}
+
 
 /* MENU PAGE */
 

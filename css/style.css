@@ -17,7 +17,6 @@ footer a:hover { text-decoration: underline;}
 #flogo { width: 75px; height: 75px; text-align: center; line-height: 105px; float: right; }
 
 h1 { font-family: "arial black", arial, sans-serif; font-size: 2em; color: #0F4D21; text-transform: uppercase; margin-top: 0px; margin-bottom: 5px;}
-b { color: #0F4D21; }
 a { color: #0F4D21; font-weight: bold; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
@@ -28,6 +27,8 @@ a:hover { text-decoration: underline; }
 #adprompt { margin: 10px auto; width: 75%; max-width: 950px; height: 150px; background-image: url('../img/top.png'); background-repeat: no-repeat; font-family: "arial black", arial, sans-serif; font-size: 3.5em; color: #FFF; text-align: center; line-height: 150px; text-transform: uppercase; }
 #adprompt a { font-family: "arial black", arial, sans-serif; color: #FFF; text-decoration: none; cursor: pointer;}
 #adprompt a:hover { color: #0F4D21; }
+.adcontainer { margin: 10px auto; width: 75%; max-width: 950px; }
+.mainad { width: 33%; max-width: 300px; height: 300px; display: inline-block; margin-bottom: 10px; }
 
 /* MENU PAGE */
 
@@ -40,6 +41,7 @@ a:hover { text-decoration: underline; }
 .header { width: 100%; margin-bottom: 5px; padding: 10px; background-color: #0f4d21; font-family: "arial black", arial, sans-serif; font-size: 1em; color: #fff; text-transform: uppercase; }
 .food { padding: 10px; margin-bottom: 20px; min-height: 350px;}
 .item { margin-right: 10px; width: 200px; float: left;}
+.item b { color: #0F4D21; }
 
 .mdesc { margin: 5px 0px 5px 0px; padding: 5px; min-height: 75px; background-color: #fff7e6; }
 

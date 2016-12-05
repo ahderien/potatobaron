@@ -54,7 +54,7 @@ h2 {font-size: 2em; line-height: 0px;}
 /* CONTACT PAGE */
 
 input { background-color: #fff7e6; }
-#con { margin: 50px auto; width: 75%; line-height: 1.5em; }
+#con { margin: 50px auto; width: 75%; line-height: 1.5em; min-height: 620px;}
 textarea { width: 100%; height: 400px; background-color: #fff7e6; font-family: arial; }
 #submit { margin-top: 10px; position: relative; left: 5px; padding: 10px; width: 150px; float: right; cursor: pointer; background-color: #0F4D21; font-family: "arial black", arial, sans-serif; font-size: 1em; color: #fff; text-transform: uppercase; border: none;}
 
@@ -70,17 +70,17 @@ input:hover {text-decoration: underline;}
 .name {display: inline-block; width: 50%; margin-bottom: 5px; }
 #name {width: calc(100% - 100px); margin-right: 10px;}
 
-#email {width: calc(50% - 58px);}
+#email {width: calc(50% - 60px);}
 
 .address {display: inline-block; width: calc(65% - 45px); margin-bottom: 5px; margin-right: 10px;}
-#address {width: calc(100% - 75px);}
+#address {width: calc(100% - 80px);}
 
-#suite { width: calc(35% - 20px);}
+#suite { width: calc(35% - 25px);}
 
 .city {display: inline-block; width: calc(65% - 45px); margin-bottom: 5px; margin-right: 10px;}
-#city {width: calc(100% - 75px);}
+#city {width: calc(100% - 80px);}
 
-#postal {width: calc(35% - 70px);}
+#postal {width: calc(35% - 75px);}
 
 #requests { display: block; width: 65%; height: 200px; margin: 0px auto 10px auto;}
 

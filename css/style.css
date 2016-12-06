@@ -33,6 +33,11 @@ h2 {font-size: 2em; line-height: 0px;}
 .plain { color: #000; text-transform: none;}
 .plain h2 {color: #0F4D21; line-height: 0.8em;}
 
+/* ABOUT PAGE */
+
+.zifan { margin: 10px auto; width: 75%; max-width: 950px;}
+.zifan img { max-width: 950px; max-height: 500px; min-height: 100%; width: 100%; }
+
 
 /* MENU PAGE */
 

@@ -46,7 +46,7 @@ h2 {font-size: 2em; line-height: 0px;}
 .button:hover {text-decoration: underline; cursor: pointer;}
 .button a {color: #fff;}
 
-#menu { position: relative; top: 15px; left: 170px; width: 1070px; }
+#menu { margin: 10px auto; width: 1070px; }
 .header { width: 100%; margin-bottom: 5px; padding: 10px; background-color: #0f4d21; font-family: "arial black", arial, sans-serif; font-size: 1em; color: #fff; text-transform: uppercase; }
 .food { padding: 10px; margin-bottom: 20px; min-height: 350px;}
 .item { margin-right: 10px; width: 200px; float: left;}

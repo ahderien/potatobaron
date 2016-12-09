@@ -19,10 +19,11 @@ footer a:hover { text-decoration: underline;}
 
 h1 { font-family: "arial black", arial, sans-serif; font-size: 2em; color: #0F4D21; text-transform: uppercase; margin-top: 0px; margin-bottom: 5px;}
 h3 { font-family: "arial black", arial, sans-serif; font-size: 2em; color: #0F4D21; text-transform: uppercase; margin-top: 0px; margin-bottom: 5px; text-align: center;}
+h4 { text-align: center; color: #0F4D21; text-transform: uppercase; font-family: arial black, arial, sans-serif;}
 a { color: #0F4D21; font-weight: bold; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-.container { margin: 10px auto; padding: 10px; width: 75%; max-width: 930px; background-color: #eee; border: 1px solid #0F4D21;}
+.container { margin: 10px auto; padding: 10px; width: 75%; max-width: 930px; background-color: #eee; border: 1px solid #0F4D21; }
 
 input { background-color: #fff; border: 1px solid #0F4D21; margin-bottom: 5px;}
 
@@ -51,14 +52,13 @@ h2 {font-size: 2em; line-height: 0px;}
 .button a {color: #0F4D21;}
 
 #menu { margin: 10px auto; width: 1070px; }
-.header { width: 100%; margin-bottom: 5px; padding: 10px; background-color: #0f4d21; font-family: "arial black", arial, sans-serif; font-size: 1em; color: #fff; text-transform: uppercase; }
-.food { padding: 10px; margin-bottom: 20px; min-height: 350px;}
-.item { margin-right: 10px; width: 200px; float: left;}
-.item b { color: #0F4D21; }
+.itemone { width: calc(50% - 30px); height: 200px; margin-right: 5px; padding: 10px; background-color: #eee; border: 1px solid #0F4D21; display: inline-block; margin-bottom: 10px; }
+.itemtwo { width: calc(50% - 30px); height: 200px; margin-left: 5px; padding: 10px; background-color: #eee; border: 1px solid #0F4D21; display: inline-block; margin-bottom: 10px; }
 
-.mdesc { margin: 5px 0px 5px 0px; padding: 5px; min-height: 75px; background-color: #fff7e6; }
+.food { height: 170px; float: right; width: calc(100% - 210px);}
+.foodtwo { height: 133px;}
 
-.long { width: 180px; }
+.long { width: calc(100% - 20px);}
 
 /* CONTACT PAGE */
 

@@ -22,22 +22,24 @@ h3 { font-family: "arial black", arial, sans-serif; font-size: 2em; color: #0F4D
 a { color: #0F4D21; font-weight: bold; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-.container { margin: 10px auto; padding: 10px; width: 75%; max-width: 930px; background-color: #fff7e6; }
+.container { margin: 10px auto; padding: 10px; width: 75%; max-width: 930px; background-color: #eee; border: 1px solid #0F4D21;}
+
+input { background-color: #fff; border: 1px solid #0F4D21; margin-bottom: 5px;}
 
 /* INDEX */
 
-#adprompt { margin: 10px auto; width: 75%; max-width: 950px; height: 150px; background-image: url('../img/top.png'); background-repeat: no-repeat; font-family: "arial black", arial, sans-serif; font-size: 3.5em; color: #FFF; text-align: center; line-height: 150px; text-transform: uppercase; }
+#adprompt { margin: 10px auto; width: 75%; max-width: 950px; height: 150px; background-image: url('../img/top.png'); background-repeat: no-repeat; font-family: "arial black", arial, sans-serif; font-size: 3.5em; color: #FFF; text-align: center; line-height: 150px; text-transform: uppercase; border: 1px solid #0F4D21; }
 #adprompt a { font-family: "arial black", arial, sans-serif; color: #FFF; text-decoration: none; cursor: pointer;}
 #adprompt a:hover { color: #0F4D21; }
 .adcontainer { margin: 10px auto; width: 75%; max-width: 950px; }
-.mainad { width: 33%; max-width: 300px; height: 300px; float: left; margin-bottom: 10px; color: #fff; text-align: center; text-transform: uppercase;}
+.mainad { width: 33%; max-width: 300px; height: 300px; float: left; margin-bottom: 10px; color: #fff; text-align: center; text-transform: uppercase; border: 1px solid #0F4D21; }
 h2 {font-size: 2em; line-height: 0px;}
 .plain { color: #000; text-transform: none;}
 .plain h2 {color: #0F4D21; line-height: 0.8em;}
 
 /* ABOUT PAGE */
 
-.zifan { margin: 10px auto; width: 75%; max-width: 950px;}
+.zifan { margin: 10px auto 90px auto; width: 75%; max-width: 950px; max-height: 500px; border: 1px solid #0F4D21; }
 .zifan img { max-width: 950px; max-height: 500px; min-height: 100%; width: 100%; }
 
 
@@ -60,10 +62,12 @@ h2 {font-size: 2em; line-height: 0px;}
 
 /* CONTACT PAGE */
 
-input { background-color: #fff; border: 1px solid #0F4D21;}
-#con { margin: 50px auto; width: 75%; line-height: 1.5em; min-height: 620px;}
+#con { margin: 40px auto; width: 80%; line-height: 1.5em; min-height: 620px;}
 textarea { width: 100%; height: 200px; background-color: #fff; font-family: arial; border: 1px solid #0F4D21; }
 #submit { margin-top: 10px; position: relative; left: 5px; padding: 10px; width: 150px; float: right; cursor: pointer; background-color: #fff; font-family: "arial black", arial, sans-serif; font-size: 1em; color: #0F4D21; text-transform: uppercase; border: 1px solid #0F4D21;}
+.chalf {width: calc(50% - 10px);}
+.textt { display: inline-block;}
+.subjectt {width: 100%;}
 
 /* CHECKOUT PAGE */
 

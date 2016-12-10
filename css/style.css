@@ -22,6 +22,7 @@ h3 { font-family: "arial black", arial, sans-serif; font-size: 2em; color: #0F4D
 h4 { text-align: center; color: #0F4D21; text-transform: uppercase; font-family: arial black, arial, sans-serif;}
 a { color: #0F4D21; font-weight: bold; text-decoration: none; }
 a:hover { text-decoration: underline; }
+b { color: #0F2D21;}
 
 .container { margin: 10px auto; padding: 10px; width: 75%; max-width: 930px; background-color: #eee; border: 1px solid #0F4D21; }
 
@@ -34,6 +35,7 @@ input { background-color: #fff; border: 1px solid #0F4D21; margin-bottom: 5px;}
 #adprompt a:hover { color: #0F4D21; }
 .adcontainer { margin: 10px auto; width: 75%; max-width: 950px; }
 .mainad { width: 33%; max-width: 300px; height: 300px; float: left; margin-bottom: 10px; color: #fff; text-align: center; text-transform: uppercase; border: 1px solid #0F4D21; }
+.mainad b {color: #fff;}
 h2 {font-size: 2em; line-height: 0px;}
 .plain { color: #000; text-transform: none;}
 .plain h2 {color: #0F4D21; line-height: 0.8em;}
@@ -64,24 +66,28 @@ h2 {font-size: 2em; line-height: 0px;}
 
 #con { margin: 40px auto; width: 80%; line-height: 1.5em; min-height: 620px;}
 textarea { width: 100%; height: 200px; background-color: #fff; font-family: arial; border: 1px solid #0F4D21; }
-#submit { margin-top: 10px; position: relative; left: 5px; padding: 10px; width: 150px; float: right; cursor: pointer; background-color: #fff; font-family: "arial black", arial, sans-serif; font-size: 1em; color: #0F4D21; text-transform: uppercase; border: 1px solid #0F4D21;}
-.chalf {width: calc(50% - 10px);}
-.textt { display: inline-block;}
+#submit { margin-top: 10px; position: relative; left: 5px; padding: 10px; width: 150px; float: right; cursor: pointer; background-color: #fff; font-family: "arial black", arial, sans-serif; font-size: 1em; color: #0F4D21; text-transform: uppercase; border: 1px solid #0F4D21; }
+.chalf {width: calc(50% - 10px); }
+.textt { display: inline-block; }
 .subjectt {width: 100%;}
+
+.googlemapsucks { width: 40%; transform: translate(0, 30px);}
+.moveujerk {width: 350px; float: right;}
+.screaming {height: 350px;}
 
 /* CHECKOUT PAGE */
 
 .why {width: 100%;}
 
-#check {margin: 10px auto; width: 70%; line-height: 1.5em;}
+#check {margin: 40px auto; width: 80%; line-height: 1.5em; min-height: 620px;}
 #comments { width: 310px; height: 150px;}
 input:hover {text-decoration: underline;}
 .line { display: inline-block; width: 70px;}
 
-.name {display: inline-block; width: 50%; margin-bottom: 5px; }
-#name {width: calc(100% - 100px); margin-right: 10px;}
+.name {display: inline-block; width: calc(65% - 45px); margin-bottom: 5px; margin-right: 10px; }
+#name {width: calc(100% - 83px); margin-right: 10px;}
 
-#email {width: calc(50% - 60px);}
+#email {width: calc(35% - 25px);}
 
 .address {display: inline-block; width: calc(65% - 45px); margin-bottom: 5px; margin-right: 10px;}
 #address {width: calc(100% - 80px);}
@@ -93,6 +99,6 @@ input:hover {text-decoration: underline;}
 
 #postal {width: calc(35% - 75px);}
 
-#requests { display: block; width: 65%; height: 200px; margin: 0px auto 10px auto;}
+#requests { display: block; width: 100%; height: 200px; margin: 0px auto 10px auto;}
 
 .summaryt { width: calc(100% - 210px); line-height: 200px; margin-left: 10px; text-transform: uppercase; color: #0F4D21; font-family: "arial black", arial, sans-serif; }
